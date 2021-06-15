@@ -6,7 +6,7 @@
 - データベース単位のデータをEntityから受け取り、Repositoryがデータベースとのやり取りを行います。
 
 ## データベース
-- MySqlを使用してます。
+- MySQLを使用してます。
 
 ### 参考にした記事です
 https://qiita.com/devnokiyo/items/214aa24d60764f0f55f6
