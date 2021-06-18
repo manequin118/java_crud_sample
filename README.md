@@ -1,5 +1,6 @@
 # Java　0→1でCRUD処理を作成
 ### ご確認いただきありがとうございます。
+### Javaの学習のアウトプットのためにCRUD処理を作成しました。
 - Viewはthymeleaf(Java)、bootstrap(CSS)を使って画面を整えました。
 - 画面単位のデータをFormとDB単位でのEntityに分割して作成してます。
 - ItemControllerにルーティングをまとめて記載してます。
