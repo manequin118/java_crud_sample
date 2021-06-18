@@ -24,7 +24,8 @@ import com.example.demo.entity.ItemEntity;
 
 @Controller
 @RequestMapping("/")
-public class RootController {
+
+public class ItemController {
 	
 	@Autowired
 	ItemService itemService;
@@ -42,8 +43,7 @@ public class RootController {
 		return "root/itemList";
 	}
 	
-	
-    /**
+	 /**
      * 商品登録画面のリクエスト
      * @param itemForm
      * @return
@@ -153,7 +153,5 @@ public class RootController {
 			model.addAttribute("itemList", list);
 	        return "root/itemList";
 	    }
+
 }
-	
-	
-	
