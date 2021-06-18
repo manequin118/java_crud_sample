@@ -1,9 +1,9 @@
 # Java　0→1でCRUD処理を作成
-- Viewはthymeleaf、bootstrapを使って画面を整えました。
-- 画面単位のデータをFormによって受け渡しをしてます。
-- Rootcontrollerにルーティングをまとめて記載してます。
+### ご確認いただきありがとうございます。
+- Viewはthymeleaf(Java)、bootstrap(CSS)を使って画面を整えました。
+- 画面単位のデータをFormとDB単位でのEntityに分割して作成してます。
+- ItemControllerにルーティングをまとめて記載してます。
 - ロジック部分はServiceに記載してます。
-- データベース単位のデータをEntityから受け取り、Repositoryがデータベースとのやり取りを行います。
 
 ## データベース
 - MySQLを使用してます。
