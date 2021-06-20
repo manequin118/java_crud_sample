@@ -31,7 +31,7 @@ public class ItemController {
 	ItemService itemService;
 	
 	/**
-	 * お問い合わせ一覧を取り出す
+	 * 商品一覧を取り出す
 	 * @param model
 	 * @return
 	 */
@@ -55,7 +55,7 @@ public class ItemController {
 	}
 	
     /**
-     * お問い合わせ画面のフォームにある情報をitemRepositoryに保存
+     * 商品登録画面のフォームにある情報をitemRepositoryに保存
      * @param itemForm
      * @param bindingResult
      * @param model
