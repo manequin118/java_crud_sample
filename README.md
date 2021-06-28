@@ -9,7 +9,7 @@
 - BootStrap
 - MySQL
 ## 説明
-- Viewはthymeleaf(Java)、bootstrap(CSS)を使って画面を整えました。
+- ViewはThymeleaf(Java)、BootStrap(CSS)を使って画面を整えました。
 - 画面単位のデータをFormとDB単位でのEntityに分割して作成してます。
 - ItemControllerにルーティングをまとめて記載してます。
 - ロジック部分はServiceに記載してます。
